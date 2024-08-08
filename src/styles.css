@@ -144,12 +144,12 @@ p {
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 
 .hero {
     background: var(--secondary-color);
-    padding: 160px 20px;
+    padding: 150px 20px;
     text-align: center;
 }
 
@@ -167,6 +167,10 @@ p {
     font-weight: normal;
     line-height: 2;
 }
+
+/* .home-navigation-bar {
+background: var(--secondary-color);
+} */
 
 .logo {
     max-height: 42px;
