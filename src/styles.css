@@ -62,7 +62,7 @@ h2 {
     font-size: 64px;
 }
 
-h4 {
+h3 {
     font-size: 48px;
 }
 
@@ -99,13 +99,23 @@ p {
     line-height: 30px;
 }
 
+.project-button {
+    max-width: 300px;
+}
+
 .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--secondary-color);
     font-size: 18px;
     line-height: 27px;
     padding: 18px 30px;
+    margin: 0 auto;
+}
+
+.btn-branding:hover {
+    border: 1px solid var(--branding-color);
+    color: var(--branding-color);
 }
 
 .btn-branding-outline {
@@ -115,6 +125,11 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 18px 30px;
+}
+
+.btn-branding-outline:hover {
+    background: var(--branding-color);
+    color: #FFFFFF;
 }
 
 .content {
@@ -218,3 +233,4 @@ background: var(--secondary-color);
         text-align: center;
     }
 }
+
